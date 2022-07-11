@@ -41,6 +41,7 @@
               <img src="{{ '/assets/img/sun.svg' | relative_url }}" id="theme-toggle-img--mobile">
             </span>
           </a>
+          <script src="{{ site.baseurl }}/assets/js/Hamburger.js"></script>
         </div>
       </div>
       <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -53,19 +54,19 @@
     <div id="navbarBasicExample" class="navbar-menu">
       <div class="navbar-start">
         <a href="{{'/notes' | relative_url}}" class="navbar-item">
-          Demo Feed
+          Notes
         </a>
-        <a href="../post/how-to" class="navbar-item">
-          How To
+        <a href="../post/about-me" class="navbar-item">
+          About me
         </a>
-        <a href="https://github.com/Jekyll-Garden/jekyll-garden.github.io" target="_blank" class="navbar-item">
+        <a href="../post/my-projects" class="navbar-item">
+          My Projects
+        </a>
+        <a href="https://github.com/quangnguyen0698vn" target="_blank" class="navbar-item">
           Github
         </a>
-        <a href="https://jekyllrb.com/" target="_blank" class="navbar-item">
-          Jekyll
-        </a>
-        <a href="https://obsidian.md/"  target="_blank" class="navbar-item">
-          Obsidian
+        <a href="https://www.facebook.com/" target="_blank" class="navbar-item">
+          Facebook
         </a>
       </div>
       <div class="navbar-end is-hidden-mobile" onclick="modeSwitcher()" >

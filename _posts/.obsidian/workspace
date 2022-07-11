@@ -1,0 +1,115 @@
+{
+  "main": {
+    "id": "69c53d5042f50a3b",
+    "type": "split",
+    "children": [
+      {
+        "id": "c74052b83016766d",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4bdcb4430898cce0",
+    "type": "split",
+    "children": [
+      {
+        "id": "db721667d6206e09",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f97b044eb2e48dbb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "4510b5020a5fe084",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "shoppingDB",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 330,
+    "collapsed": true
+  },
+  "right": {
+    "id": "93008fdedb5d8c2b",
+    "type": "split",
+    "children": [
+      {
+        "id": "a0a36c3d23ac79e8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "eaac2f5e695121c2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "170dac72bfdaf6e3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "13e10225380d87a3",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "c74052b83016766d",
+  "lastOpenFiles": [
+    "2020-03-01-how-to.md",
+    "assets/images/linux/neofetch.png.md",
+    "Zettelkasten/Untitled.md",
+    "Zettelkasten/Data Structure and Algorithms.md",
+    "Zettelkasten/Java Servlet, JSP and Hibernate - Build eCommerce Website.md",
+    "Zettelkasten/JSP - Servlet.md",
+    "Zettelkasten/DBI202x_2.1-A_VN_DN Các hệ cơ sở dữ liệu.md",
+    "Zettelkasten/Bootstrap 4 Fundamentals.md",
+    "Daily Notes.md",
+    "Reference Notes/Javascript Flashcards.md"
+  ]
+}

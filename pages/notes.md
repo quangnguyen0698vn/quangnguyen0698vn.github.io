@@ -2,7 +2,9 @@
 layout: Post
 permalink: /notes
 feedformat: card
-title: Digital Garden
+title: My Working Notes
 ---
-
-The feed page shows all notes from `notes` folder. If you want to hide any notes from this feed, add `feed:hide` on note's Frontmatter. Eg:[[Hidden Note]]
+.  
+Đây là nơi liệt kê tất cả các notes của mình... Hiện mình sẽ chỉ tập trung viết note về các lĩnh vực mà mình quan tâm như: linux, html, css, javascript, java, spring mvc, framework, data structure and algorithm, dockers,...     
+   
+Tất cả sẽ đảm bảm thật *concise* và *to-the-point*    
