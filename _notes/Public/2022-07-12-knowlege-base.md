@@ -74,7 +74,7 @@ Lúc đầu mình tính chỉ đăng cái mindmap lên thôi, xong lúc sau lạ
 
 ## What's Next?
 
-- Deploy toàn bộ small projects mà mình đã làm để chuẩn apply for a job
+- Deploy toàn bộ small projects mà mình đã làm để chuẩn bị *apply for a job*
 - Ôn lại toàn bộ những thứ gọi là `fundamental` cho `job interview`, ngoài ra chắc phải lên `hackerank` or `leetcode` để luyện công
 
 
