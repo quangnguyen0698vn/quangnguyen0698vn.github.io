@@ -30,55 +30,56 @@
 {%- endcomment -%}
 
 <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
-    <div class="navbar-brand">
-      <a class="navbar-item" style="padding-left: 0;"; href="{{ site.baseurl }}/index.html">
-          <h6> {{site.heading}}</h6></a>
-          <script src="{{ site.baseurl }}/assets/js/modeswitcher.js"></script>  
-      <div class="navbar-item navbar-dark-mode__mobile is-hidden-tablet" onclick="modeSwitcher()">
+  <div class="navbar-brand">
+    <a class="navbar-item" style="padding-left: 0;" ; href="{{ site.baseurl }}/index.html">
+      <h6> {{site.heading}}</h6>
+    </a>
+    <script src="{{ site.baseurl }}/assets/js/modeswitcher.js"></script>
+    <div class="navbar-item navbar-dark-mode__mobile is-hidden-tablet" onclick="modeSwitcher()">
+      <div class="buttons">
+        <a class="button is-text">
+          <span class="icon is-small">
+            <img src="{{ '/assets/img/sun.svg' | relative_url }}" id="theme-toggle-img--mobile">
+          </span>
+        </a>
+        <script src="{{ site.baseurl }}/assets/js/Hamburger.js"></script>
+      </div>
+    </div>
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+
+  <div id="navbarBasicExample" class="navbar-menu">
+    <div class="navbar-start">
+      <a href="{{'/notes' | relative_url}}" class="navbar-item">
+        Notes
+      </a>
+      <a href="../post/about-me" class="navbar-item">
+        About me
+      </a>
+      <a href="../note/my-projects" class="navbar-item">
+        My Projects
+      </a>
+      <a href="https://github.com/quangnguyen0698vn?tab=repositories" target="_blank" class="navbar-item">
+        Github
+      </a>
+      <a href="https://www.facebook.com/quangnguyen98hb" target="_blank" class="navbar-item">
+        Facebook
+      </a>
+    </div>
+    <div class="navbar-end is-hidden-mobile" onclick="modeSwitcher()">
+      <div class="navbar-item">
         <div class="buttons">
           <a class="button is-text">
             <span class="icon is-small">
-              <img src="{{ '/assets/img/sun.svg' | relative_url }}" id="theme-toggle-img--mobile">
+              <img src="{{ '/assets/img/sun.svg' | relative_url }}" id="theme-toggle-img">
             </span>
           </a>
-          <script src="{{ site.baseurl }}/assets/js/Hamburger.js"></script>
-        </div>
-      </div>
-      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-      </a>
-    </div>
-    
-    <div id="navbarBasicExample" class="navbar-menu">
-      <div class="navbar-start">
-        <a href="{{'/notes' | relative_url}}" class="navbar-item">
-          Notes
-        </a>
-        <a href="../post/about-me" class="navbar-item">
-          About me
-        </a>
-        <a href="../post/my-projects" class="navbar-item">
-          My Projects
-        </a>
-        <a href="https://github.com/quangnguyen0698vn" target="_blank" class="navbar-item">
-          Github
-        </a>
-        <a href="https://www.facebook.com/" target="_blank" class="navbar-item">
-          Facebook
-        </a>
-      </div>
-      <div class="navbar-end is-hidden-mobile" onclick="modeSwitcher()" >
-        <div class="navbar-item">
-          <div class="buttons">
-            <a class="button is-text">
-              <span class="icon is-small">
-                <img src="{{ '/assets/img/sun.svg' | relative_url }}" id="theme-toggle-img">
-              </span>
-            </a>
-          </div>
         </div>
       </div>
     </div>
-  </nav>
+  </div>
+</nav>
