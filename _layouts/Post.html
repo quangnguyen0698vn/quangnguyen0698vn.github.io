@@ -79,7 +79,7 @@
                     {%- include Homepage.html -%}
                     {%- else -%}
                     <!--- Show Feed Part -->
-                    <div class="column is-7-widescreen  is-10-desktop is-10-tablet is-12-mobile">
+                    <div class="column is-6-widescreen  is-10-desktop is-10-tablet is-12-mobile">
                         <h5 class="meta-title"><a href="/">← Home</a></h5>
                         <div class="jumbo">{{page.title}}</div>
                         {%- include FeedContent.html -%}
@@ -91,7 +91,7 @@
 
                 <!--- Notes Feed Layout-->
                 {%- if page.feedformat -%}
-                <div class="column is-7-widescreen  is-10-desktop is-10-tablet is-12-mobile">
+                <div class="column is-6-widescreen  is-10-desktop is-10-tablet is-12-mobile">
                     <h5 class="meta-title"><a href="/">← Home</a></h5>
                     <div class="jumbo">{{page.title}}</div>
                     {%- include Content.html -%}
@@ -140,7 +140,7 @@
 
                     <!--- Post Feed Layout-->
                     {%- if page.permalink == "/posts" -%}
-                    <div class="column is-7-widescreen  is-10-desktop is-10-tablet is-12-mobile">
+                    <div class="column is-6-widescreen  is-10-desktop is-10-tablet is-12-mobile">
                         <h5 class="meta-title"><a href="/">← Home</a></h5>
                         <div class="jumbo">{{page.title}}</div>
                         {%- include Content.html -%}
@@ -160,7 +160,7 @@
 
                         <!--- Post Layout-->
                         {%- if page.content-type == "post" -%}
-                        <div class="column is-7-widescreen  is-8-desktop is-8-tablet is-12-mobile">
+                        <div class="column is-6-widescreen  is-8-desktop is-8-tablet is-12-mobile">
                             <div class="note-page-section">
                                 <div>
                                     {%- if site.preferences.homepage.enabled -%}
@@ -180,7 +180,7 @@
 
                         <!--- Static Page Layout-->
                         {%- if page.content-type == "static" -%}
-                        <div class="column is-7-widescreen  is-8-desktop is-8-tablet is-12-mobile">
+                        <div class="column is-6-widescreen  is-8-desktop is-8-tablet is-12-mobile">
                             <div class="jumbo">{{page.title}}</div>
                             {%- include Content.html -%}
                         </div>
