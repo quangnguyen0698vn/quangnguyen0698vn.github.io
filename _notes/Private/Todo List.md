@@ -1,12 +1,16 @@
-Những việc cần làm:
-- [ ] Hệ thống lại kiến thức
-- [ ] Hệ thống lại các project lớn nhỏ đã làm
-- [ ] Deploy lên một trang nào đó lên mạng
-- [ ] Add vô website đã làm
+Task 2: Xây dựng database cho dự án quyên góp
 
-Những kiến thức cần bổ sung
-- [ ] Project với AngularJS và Spring
-- [ ] javascript cookbook
-- [ ] Luyện hackerank và leetcode
-- [ ] Tư duy kháng bại
-- [ ] 
+- Các bảng quản lý tài khoản nhóm tài khoản `ADMIN`
+
+![[users.png]]
+
+- Các bảng quản lý nhóm tài khoản `USER`
+	- id
+	- email
+	- password
+	- first_name (Tên)
+	- middle_name (Tên lót)
+	- last_name (Họ)
+	- phone_number
+	- address
+	- 

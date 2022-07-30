@@ -11,6 +11,7 @@ date : 12-07-2022
 ![Knowledge Base](../assets/img/mindmap/2022-07-12-knowledge-base.png
 "Knowledge Base")
 
+(Hình nhỏ mình phải chuột vào -> view image là zoom được nha)
 [DownLoad Xmind File](../assets/img/mindmap/knowlege-base.xmind) 
 
 # HTML & CSS
