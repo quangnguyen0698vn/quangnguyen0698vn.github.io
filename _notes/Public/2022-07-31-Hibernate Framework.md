@@ -24,6 +24,7 @@ Hình sách nè
 # Tiếp cận cuốn sách này như thế nào
 
 - Những sách như vày thực sự rất khó đọc, mình đọc qua cũng nản quá, nên tình cờ lướt udemy và tìm được khóa học này [Java Persistence: Hibernate and JPA Fundamentals](https://www.udemy.com/course/hibernate-and-jpa-fundamentals) rất xúc tích và ngắn gọn
+  ![](../assets/img/hibernate/Persistence-udemy.png)
 - Clone toàn bộ code về, vừa xem video nghe giảng vừa chạy thử code
 - Nghe toàn bộ video, não mình sẽ mapping được các `terminology` cần thiết, sau đó thì việc đọc sách để hiểu thêm là không thành vấn đề nữa
 - Các sách CHUYÊN NGÀNH IT tiếng Anh có điểm hay là sẽ có các repo, source code trên github, download về để mà xem
