@@ -12,8 +12,8 @@ Một số tài liệu, file, nói chung là `unorganized` khi mình học ở `
 ## Website bán điện thoại di động (Java Servlet + Jsp)
 Dự án này mình làm trong 3 ngày để nộp bài assignment, nên một số tính năng chưa được phát triển đến nơi đến chốn.  
 [Watch this Demo Video on Google Drive](https://drive.google.com/file/d/1lz-Z8_aL5RitkV2-4RHQQJJ2LtrJS8ye/view?usp=sharing)  
-[Visit my Github Repo](https://github.com/quangnguyen0698vn/zPHONE_Project)
-Một version y chang nhưng sử dụng `Spring MVC`, tuy nhiên hồi đó chưa cứng `maven` lắm thành ra không sử dụng, lib nặng nên mình upload lên google drive
+[Visit my Github Repo](https://github.com/quangnguyen0698vn/zPHONE_Project)  
+Ngoài ra còn một version y chang nhưng sử dụng `Spring MVC`, tuy nhiên hồi đó chưa cứng `maven` lắm thành ra không sử dụng, lib nặng nên mình upload lên google drive
 [Link Here](https://drive.google.com/file/d/1gzuZhb9X0bTEFGYPm9eA-0b5G7jVmlHh/view)
 ## Omnifood Project
 Dự án này mình clone theo hướng dẫn của instructor với khóa học trên udemy.  
